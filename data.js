@@ -24,3 +24,4 @@ form.addEventListener('submit', function(e) {
     window.open(`employee_records.html?name=${name}&email=${email}&dob=${dob}&address=${address}&department=${department}`);
 });
 
+

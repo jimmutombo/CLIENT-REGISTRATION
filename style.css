@@ -1,3 +1,12 @@
+body{
+background-image: url(/Pictures/Google.jpg) ;
+background-size: cover;
+padding: 0%;
+margin: 0%;
+background-repeat:no-repeat ;
+position:center;
+}
+
 .container {
 	max-width: 800px;
 	margin: auto;
@@ -8,9 +17,11 @@
 h1 {
 	font-size: 36px;
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 form {
+	color: #fff;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
@@ -35,7 +46,7 @@ textarea {
 }
 
 button {
-	font-size: 20px;
+	font-size: 30px;
 	padding: 10px 20px;
 	background-color: #4CAF50;
 	color: #fff;
@@ -43,14 +54,21 @@ button {
 	border-radius: 100px;
 	cursor: pointer;
 	margin-top: 20px;
-}s
+}
+#myBtn button{
+text-align: center;
+}
 
 button:hover {
 	background-color: #3e8e41;
 }
+footer{
+	text-align: center;
+	color: blue
+}
 
 /* Result form that will help to see the record in the Registration */
-
+/* 
 .container {
 	max-width: 800px;
 	margin: auto;
@@ -87,14 +105,15 @@ select {
 }
 
 button {
-	font-size: 20px;
+	font-size: 30px;
 	padding: 10px 20px;
 	background-color: #4CAF50;
 	color: #fff;
 	border: none;
-	border-radius: 5px;
+	border-radius: 100px;
 	cursor: pointer;
-	margin-top: 20px;
+	margin-top: 30px;
+
 }
 
 button:hover {
@@ -104,4 +123,4 @@ button:hover {
 #results {
 	margin-top: 30px;
 	font-size: 20px;
-}
+} */
