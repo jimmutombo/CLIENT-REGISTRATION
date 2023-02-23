@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Record Checker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="data.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Employee Record Checker</h1>
+		<form id="record-check-form">
+			<label for="name">Employee Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="department">Department:</label>
+			<select id="department" name="department" required>
+				<option value="">Select Department</option>
+				<option value="IT">IT</option>
+				<option value="HR">HR</option>
+				<option value="Finance">Finance</option>
+				<option value="Marketing">Marketing</option>
+			</select>
+
+			<button type="submit" id="submit-btn">Submit</button>
+		</form>
+
+		<div id="results"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	margin-top: 30px;
+}
+
+label {
+	font-size: 20px;
+}
+
+input, select, textarea {
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: none;
+	height: 120px;
+}
+
+button {
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+	margin-top: 20px;
+}s
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+/* Result form that will help to see the record in the Registration */
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	margin-top: 30px;
+}
+
+label {
+	font-size: 20px;
+}
+
+input, select {
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+select {
+	background-color: #fff;
+}
+
+button {
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#results {
+	margin-top: 30px;
+	font-size: 20px;
+}
